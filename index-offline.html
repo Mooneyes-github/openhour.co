@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<title>COMING~SOON</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="C:\Users\thearistocrats\github\thearistocrats.us\css\main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Barcode+39+Extended+Text">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+
+<style>
+h1 {font-family: "Libre Barcode 39 Extended Text", sans-serif;
+    font-size: 8vw;}
+body,p,h2,h3,h4,h5 {font-family: 'Roboto', sans-serif;}
+body, html {height: 100%;
+    line-height: 1.8;}
+.bgimg {
+    background-image: url("C:\Users\thearistocrats\github\thearistocrats.us\img\bg.jpg");
+/*    background-image: url('/img/bg2.jpg'); */
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+        }
+img {
+    max-width: 55%;
+    height: auto;
+    }
+</style>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div id="myNavbar" class="w3-bar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <button class="w3-button"><i class="fa fa-bars"></i></button>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button"><button class="w3-button"><i class="fa fa-home"></i> HOME</button></a>
+    <a href="#openhour" class="w3-bar-item w3-button w3-hide-small"><button class="w3-button" onclick="document.getElementById('openhour').style.display='block'"><i class="fa fa-clock-o"></i> OPENHOUR</button></a>
+    <a href="#location" class="w3-bar-item w3-button w3-hide-small"><button class="w3-button" onclick="document.getElementById('location').style.display='block'"><i class="fa fa-location-arrow"></i> LOCATION</button></a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><button class="w3-button" onclick="document.getElementById('contact').style.display='block'"><i class="fa fa-envelope"></i> CONTACT</button></a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red"><button class="w3-button"><i class="fa fa-search"></i></button></a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-animate-opacity w3-black w3-hide w3-hide-large w3-hide-medium">
+    <a href="#openhour" class="w3-bar-item w3-button" onclick="toggleFunction()"><button class="w3-button" onclick="document.getElementById('openhour').style.display='block'"><i class="fa fa-clock-o"></i> OPENHOUR</button></a>
+    <a href="#location" class="w3-bar-item w3-button" onclick="toggleFunction()"><button class="w3-button" onclick="document.getElementById('location').style.display='block'"><i class="fa fa-location-arrow"></i> LOCATION</button></a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()"><button class="w3-button" onclick="document.getElementById('contact').style.display='block'"><i class="fa fa-envelope"></i> CONTACT</button></a>
+    <a href="#" class="w3-bar-item w3-button"><button class="w3-button"><i class="fa fa-search"></i> SEARCH</button></a>
+  </div>
+</div>
+
+<!-- Content -->
+<body>
+  <div class="bgimg w3-display-container w3-animate-opacity w3-text-black w3-center">
+    <div class="w3-display-middle">
+      <h1>COMING SOON</h1>
+      <hr class="w3-border-grey w3-center" style="margin:auto;width:40%">
+      <p class="w3-small w3-center"><img src="C:\Users\thearistocrats\github\thearistocrats.us\img\loading.gif"></p>
+    </div>
+  </div>
+  <div class="bgimg w3-display-container w3-animate-opacity w3-text-black w3-center">
+    <div class="w3-display-middle">
+      <h1>COMING SOON</h1>
+      <hr class="w3-border-grey w3-center" style="margin:auto;width:40%">
+      <p class="w3-small w3-center"><img src="C:\Users\thearistocrats\github\thearistocrats.us\img\loading.gif"></p>
+    </div>
+  </div>
+  <div class="bgimg w3-display-container w3-animate-opacity w3-text-black w3-center">
+    <div class="w3-display-middle">
+      <h1>COMING SOON</h1>
+      <hr class="w3-border-grey w3-center" style="margin:auto;width:40%">
+      <p class="w3-small w3-center"><img src="C:\Users\thearistocrats\github\thearistocrats.us\img\loading.gif"></p>
+    </div>
+  </div>
+  <div class="bgimg w3-display-container w3-animate-opacity w3-text-black w3-center">
+    <div class="w3-display-middle">
+      <h1>COMING SOON</h1>
+      <hr class="w3-border-grey w3-center" style="margin:auto;width:40%">
+      <p class="w3-small w3-center"><img src="C:\Users\thearistocrats\github\thearistocrats.us\img\loading.gif"></p>
+    </div>
+  </div>
+
+<!-- Openhour Modal -->
+<div id="openhour" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-opacity">
+      <header class="w3-container w3-black">
+        <span onclick="document.getElementById('openhour').style.display='none'" class="w3-button w3-black w3-xlarge w3-display-topright"><i class="fa fa-window-close" aria-hidden="true"></i></span>
+        <h3><i class="fa fa-clock-o"></i></h3>
+      </header>
+
+      <div class="w3-bar w3-border-bottom">
+        <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Details')">Details</button>
+        <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'More Info')">More Info</button>
+        <button class="tablink w3-bar-item w3-button" onclick="openCity(event, 'Price')">Price</button>
+      </div>
+
+      <div id="Details" class="w3-container city">
+        <p class="w3-center"><img src="C:\Users\thearistocrats\github\thearistocrats.us\img\openhour.jpg" onclick="document.getElementById('modal01').style.display='block'" class="w3-hover-opacity"></p>
+      </div>
+      <div id="modal01" class="w3-modal w3-center w3-animate-zoom" onclick="this.style.display='none'">
+        <img class="w3-modal-content" src="C:\Users\thearistocrats\github\thearistocrats.us\img\openhour.jpg">
+      </div>
+
+      <div id="More Info" class="w3-container city">
+        <p class="w3-center"><img src="C:\Users\thearistocrats\github\thearistocrats.us\img\openhour2.jpg" onclick="document.getElementById('modal02').style.display='block'" class="w3-hover-opacity">
+      </div>
+      <div id="modal02" class="w3-modal w3-center w3-animate-zoom" onclick="this.style.display='none'">
+        <img class="w3-modal-content" src="C:\Users\thearistocrats\github\thearistocrats.us\img\openhour2.jpg">
+      </div>
+
+      <div id="Price" class="w3-container city">
+        <p class="w3-center"><img src="C:\Users\thearistocrats\github\thearistocrats.us\img\openhour-full.jpg" onclick="document.getElementById('modal03').style.display='block'" class="w3-hover-opacity">
+      </div>
+      <div id="modal03" class="w3-modal w3-center w3-animate-zoom" onclick="this.style.display='none'">
+        <img class="w3-modal-content" src="C:\Users\thearistocrats\github\thearistocrats.us\img\openhour-full.jpg">
+      </div>
+
+    </div>
+</div>
+
+<!-- Location Modal -->
+<div id="location" class="w3-modal">
+  <div class="w3-modal-content w3-animate-opacity">
+      <div class="w3-container w3-black">
+        <span onclick="document.getElementById('location').style.display='none'" class="w3-button w3-hover-opacity w3-xlarge w3-display-topright"><i class="fa fa-window-close" aria-hidden="true"></i></span>
+        <h3><i class="fa fa-location-arrow"></i><h3>
+      </div>
+    <div class="w3-row w3-padding-32 w3-section">
+        <div class="w3-container w3-col m6">
+          <!-- Add Google Maps -->
+          <div id="googleMap" class="w3-round-large w3-greyscale w3-center" style="width:100%;height:300px;"></div>
+        </div>
+      <div class="w3-container w3-col m6">
+        <div class="w3-large w3-hover-text-black w3-margin-bottom"><br>
+          <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> 740 E Pilot Rd. Las Vegas, NV USA<br>
+          <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> (702)770-5666<br>
+          <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> kevin.sumalinog@wynnlasvegas.com<br><br>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Modal -->
+<div id="contact" class="w3-modal">
+  <div class="w3-modal-content w3-animate-opacity">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-black w3-xlarge w3-display-topright"><i class="fa fa-window-close" aria-hidden="true"></i></span>
+      <h3><i class="fa fa-envelope"></i><h3>
+    </div>
+    <div class="w3-container">
+      <p>Schedule an appointment:</p>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+        <p><button class="w3-button" type="submit">SEND MESSAGE</button></p>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#top" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <div class="w3-small w3-section w3-center">
+      <p><i class="fa fa-copyright" aria-hidden="true"></i> 2017 Openhour.co All rights reserved.</p>
+    </div>
+</footer>
+
+<script>
+// Modal Tabs
+document.getElementsByClassName("tablink")[0].click();
+
+function openCity(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].classList.remove("w3-light-grey");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.classList.add("w3-light-grey");
+}
+
+// Google Maps
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card-2" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card-2 w3-animate-top w3-black", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+// Return to top
+$("a[href='#top']").click(function() {
+  $("html, body").animate({ scrollTop: 0 }, "slow");
+  return false;
+});
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
